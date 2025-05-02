@@ -1,0 +1,55 @@
+baseURL: https://tn0ha.github.io/
+languageCode: ja
+title: tnoha's cache
+theme: PaperMod
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  homeInfoParams:
+    Title: tnoha's cache
+    Content: tam / tnoha が得た知識を書き残す場所。
+  socialIcons:
+    - name: github
+      url: https://github.com/tn0ha
+    - name: x
+      url: https://x.com/tn0ha
+    - name: bluesky
+      url: https://bsky.app/profile/tn0ha.bsky.social
+
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: archive
+      name: Archives
+      url: /archives/
+      weight: 20
+    - identifier: category
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+caches:
+  images:
+    dir: :cacheDir/images
