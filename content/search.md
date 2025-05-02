@@ -1,7 +1,6 @@
 ---
-title: "Search" # in any language you want
-layout: "search" # necessary for search
-description: "Description for Search"
+title: "Search"
+layout: "search"
 summary: "search"
-placeholder: "placeholder text in search input box"
+placeholder: "Search..."
 ---
