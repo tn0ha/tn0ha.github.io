@@ -10,7 +10,7 @@ taxonomies:
 params:
   homeInfoParams:
     Title: tnoha's cache
-    Content: tam / tnoha が得た知識を書き残す場所。
+    Content: tam / tnoha が得た知識を書いたり、メモを残したりする場所
   socialIcons:
     - name: github
       url: https://github.com/tn0ha
@@ -21,6 +21,7 @@ params:
 
   defaultTheme: auto
   ShowShareButtons: true
+  ShareButtons: ["x"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
