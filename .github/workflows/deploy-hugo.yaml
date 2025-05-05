@@ -47,6 +47,11 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Replace Google Analytics Measurement ID
+        run: |
+          if [ -f hugo.yaml ]; then
+            sed -i "s/__GA_MEASUREMENT_ID__/${{ vars.GA_MEASUREMENT_ID }}/g" hugo.yaml
+          fi
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

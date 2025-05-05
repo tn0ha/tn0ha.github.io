@@ -8,6 +8,7 @@ taxonomies:
   tag: tags
 
 params:
+  env: production
   homeInfoParams:
     Title: tnoha's cache
     Content: tam / tnoha が得た知識を書いたり、メモを残したりする場所
@@ -54,3 +55,7 @@ outputs:
 caches:
   images:
     dir: :cacheDir/images
+
+services:
+  googleAnalytics:
+    id: __GA_MEASUREMENT_ID__ # Replace with your Google MEASUREMENT ID
