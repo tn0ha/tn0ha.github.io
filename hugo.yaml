@@ -2,6 +2,7 @@ baseURL: https://tn0ha.github.io/
 languageCode: ja
 title: tnoha's cache
 theme: PaperMod
+enableRobotsTXT: true
 
 taxonomies:
   category: categories
