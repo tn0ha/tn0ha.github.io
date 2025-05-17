@@ -1,7 +1,7 @@
 ---
 date: '2025-05-10T13:08:46+09:00'
 draft: false
-title: 'containerlabでEVPN環境を作る(1)'
+title: 'containerlabでEVPNを作る(1)'
 showToc: true
 categories:
   - tech
