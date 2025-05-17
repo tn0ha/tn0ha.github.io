@@ -60,3 +60,8 @@ caches:
 services:
   googleAnalytics:
     id: __GA_MEASUREMENT_ID__ # Replace with your Google MEASUREMENT ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
