@@ -1,4 +1,4 @@
-baseURL: https://tn0ha.github.io/
+baseURL: https://tn0ha7s-cache.netlify.app/
 languageCode: ja
 title: tnoha's cache
 theme: PaperMod
@@ -56,10 +56,6 @@ outputs:
 caches:
   images:
     dir: :cacheDir/images
-
-services:
-  googleAnalytics:
-    id: __GA_MEASUREMENT_ID__ # Replace with your Google MEASUREMENT ID
 
 markup:
   goldmark:
