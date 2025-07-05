@@ -1,0 +1,11 @@
+[build.environment]
+GO_VERSION = "1.24.4"
+HUGO_VERSION = "0.147.9"
+HUGO_ENV = "production"
+NODE_VERSION = "22"
+TZ = "Asia/Tokyo"
+
+[build]
+base = "."
+publish = "public"
+command = "git config core.quotepath false && hugo --gc --minify"
